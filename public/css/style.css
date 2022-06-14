@@ -1,0 +1,205 @@
+body{
+    height: 100%;
+    font-size: 100%;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", "Open Sans", sans-serif;
+    line-height: 1.5;
+    background: #EDEDED;
+    color: #333333;
+    -webkit-font-smoothing: subpixel-antialiased;
+    word-wrap: break-word;
+}
+.max-width{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+/* 首页 */
+.overflow-container{
+    position: relative;
+    overflow: hidden;
+    height: auto;
+    min-height: 100%;
+}
+.site-header{
+    background: #333333;
+    color: white;
+    text-align: left;
+    padding: 36px 5.5556% 5.25em;
+}
+.title-container{
+    margin-bottom: 2.25em;
+    float: left;
+}
+.site-title{
+    font-family: font-bold;
+    font-size: 2em;
+    font-weight: 700;
+    display: inline;
+}
+.title-container p{
+    margin-left: 0.35em;
+    margin-bottom:0;
+    display: inline;
+    font-size: 0.9em;
+    color: #ccc;
+}
+.site-nav{
+    overflow: visible;
+}
+/* 首页列表内容 */
+.site-main{
+    margin-top: -3.8em;
+    min-height: 100vh;
+}
+.stie-article{
+    background-color: #fff;
+    padding: 1.875em 7.50006% 2.25em;
+    margin-bottom: 1.5em;
+}
+.article-header{
+    margin-bottom: 1.5em;
+}
+.article-title{
+    font-size: 1.75em;
+    line-height: 1.357;
+    margin: 0;
+}
+.article-title a{
+    color: #333;
+    font-weight: 500;
+    text-decoration: none;
+}
+.article-title:hover a{
+    color: #666;
+}
+.article-content{
+    box-sizing: border-box;
+}
+.article-content p{
+    margin: 1.5em 0;
+    line-height: 1.8em;
+}
+.article-byline{
+    font-size: 0.75em;
+}
+.article-byline a{
+    color: #333;
+    font-weight: 700;
+}
+.article-categories{
+    font-size: 0.75em;
+}
+.article-categories a{
+    color: #333;
+    font-weight: 700;
+}
+/* 首页右侧内容 */
+.author-profile{
+    margin-top: 2em;
+    padding: 1.5em;
+    overflow: hidden;
+    background-color: #fff;
+}
+.profile_picture{
+    float: left;
+    width: 60px;
+    margin-left: 0em;
+    /* margin-top: -9px; */
+}
+.profile_picture img{
+    max-width: 100%;
+    height: auto;
+}
+.profile_intro{
+    float: left;
+    width: 70%;
+    margin-left: 10px;
+    margin-top: 0.2em;
+}
+.profile_intro p{
+    margin-bottom: 0;
+    margin-top: -0.7em;
+    font-size: 0.7em;
+    font-weight: 700;
+}
+.profile_intro .intro{
+    font-size: 0.5em;
+    margin: 0;
+    font-weight: normal;
+}
+/* 底部 */
+.footer{
+    background-color: #333;
+}
+.footer a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.8em;
+}
+/* bootstrap修改内容 */
+/* 导航 */
+.bg-light{
+    background-color: #333333 !important;
+    clear: both;
+}
+.container-fluid{
+    padding: 0;
+}
+.navbar-nav>li>a{
+    color: #fff !important;
+    padding: 0 8px 2px 8px;
+    font-size: 0.875em;
+}
+.navbar-nav>li:hover>a{
+    background-color: #fff !important;
+    color: #333333 !important;
+}
+.navbar-nav>li>.active{
+    background-color: #111;
+}
+@media (max-width: 640px){
+    .site-header{
+        text-align: center;
+        padding: 36px 5.5556% 5.25em;
+    }
+    .title-container{
+        float: none;
+        margin-bottom:0.5em;
+    }
+    .site-title{
+        display: block;
+    }
+    .navbar-toggler{
+        margin: 0 auto;
+        background-color:#fff;
+    }
+    .navbar-collapse{
+        margin-top: 2em;
+    }
+    .navbar-nav .nav-link{
+        display: inline;
+        padding: 0 8px 2px 8px;
+    }
+    /* .author-profile{
+        position: absolute;
+        top:10em;
+        height: 4.5em;
+        width: 94%;
+        padding: 0.5em 1.5em;
+        margin-top: 1em;
+    } */
+    /* .site-main{
+        margin-top: 0.5em;
+    } */
+    /* 列表内容 */
+    .article-title{
+        font-size: 1.125em;
+        line-height: 1.333;
+        font-family: font-bold;
+    }
+    .stie-article{
+        padding:1.5em 4.6875375%;
+    }
+}
