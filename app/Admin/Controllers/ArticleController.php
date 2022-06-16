@@ -68,7 +68,7 @@ class ArticleController extends AdminController
         $form->text('title')->value('标题');
         $form->text('author')->value('作者');
         $form->textarea('introduce', '简介');
-        $form->textarea('content', '内容');
+        $form->ckeditor('content', '内容');
         $directors = [
             1 => '首页',
             2 => 'Java入坑',
